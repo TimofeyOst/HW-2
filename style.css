@@ -82,14 +82,16 @@ select {
     /* Стили для маркированного списка во второй секции */
     list-style-image: url(assets/images/solar_map-arrow-up-bold.svg);
 
-    margin-left: 20px;
+    padding: 0 20px;
 
     font-size: 16px;
+    font-weight: 400;
 }
 
 .books-list {
     /* Стили для нумерованного списка во второй секции */
-    margin-left: 20px;
+    padding: 0 20px;
+    
 
     font-size: 16px;
     font-weight: 400;
@@ -105,11 +107,15 @@ select {
 .text-field {
     /* Стили для односточного поля ввода текста */
     width: 330px;
+    height: 36px;
     padding: 8px 12px;
     border: 1px solid rgba(48, 48, 48, 0.3);
     border-radius: 5px;
-    
+    background-color: #fff;
+
     color: #303030;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 .btn {
@@ -147,12 +153,14 @@ th, td {
 
 footer {
     /* Стили для футера */
-    background: rgba(163, 167, 255, 0.3);
+    background-color: rgba(163, 167, 255, 0.3);
     padding: 27px 1px;
 }
 
 .footer-link {
     /* Стили для футера */
     color: #2965F1;
+    font-weight: 400;
+    font-size: 14px;
     text-decoration: none;
 }
