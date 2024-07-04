@@ -152,7 +152,7 @@ th, td {
 footer {
     /* Стили для футера */
     background-color: rgba(163, 167, 255, 0.3);
-    padding: 26px 0px;
+    padding: 26px 0;
 }
 
 .footer-link {
