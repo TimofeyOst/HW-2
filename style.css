@@ -80,12 +80,10 @@ select {
 
 .frameworks-list {
     /* Стили для маркированного списка во второй секции */
-    list-style-image: url(assets/images/solar_map-arrow-up-bold.svg);
-
-    padding: 0 20px;
-
-    font-size: 16px;
     font-weight: 400;
+    font-size: 16px;
+    padding: 0 20px;
+    list-style-image: url(assets/images/solar_map-arrow-up-bold.svg);
 }
 
 .books-list {
@@ -154,7 +152,7 @@ th, td {
 footer {
     /* Стили для футера */
     background-color: rgba(163, 167, 255, 0.3);
-    padding: 27px 1px;
+    padding: 26px 0px;
 }
 
 .footer-link {
